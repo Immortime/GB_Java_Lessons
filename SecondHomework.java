@@ -19,10 +19,7 @@ public class SecondHomework {
     
     static boolean reversePositiveOrNegative (int a) {
         System.out.println ("3-rd task");
-        if (a<0)
-            return false;
-        else
-            return true;
+        return (a<0);
     }
     static void printWord(String word, int a) {
         System.out.println ("4-th task");
@@ -33,7 +30,7 @@ public class SecondHomework {
     static boolean identifyAYear(int year) {
         System.out.println("5-th task");
         return (year % 4 ==0) && (year % 100 != 0) || (year % 400 == 0);
-        //Остаток при деленни на 4 должен быть равен 0 И также остаток не должен быть равен 0 при делении на 100 ИЛИ при делении на 400 должно быть 0
+        
     }
 }
         
